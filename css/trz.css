@@ -1,0 +1,84 @@
+/* Notifications */
+.tc-notification {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 5000;
+	padding: 10px 20px;
+	background-color: #ee3a4f;
+	color: white;
+	border-radius: 4px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 300ms;
+}
+.tc-notification.active {
+	opacity: 1;
+	visibility: visible;
+	transition: all 300ms;
+}
+
+/* Card Activation Form */
+.tc-form-card_activation .form-item {
+	width: 100%;
+	margin-bottom: 25px;
+}
+.tc-form-card_activation .form-item label {
+	display: block;
+	font-size: 16px;
+	line-height: 36px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+}
+.tc-form-card_activation .form-item input:not([type="submit"]) {
+	width: 100%;
+	border: 1px solid transparent;
+	background-color: white;
+	color: #555;
+	padding: 4px 16px;
+	font-size: 16px;
+	border-radius: 4px;
+	font-weight: normal;
+	line-height: 36px;
+	transition: all 300ms;
+}
+.tc-form-card_activation .form-item input,
+.tc-form-card_activation .form-item input:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+.tc-form-card_activation .form-item input[type="submit"] {
+	background-color: #ee3a4f;
+	color: white;
+	border-radius: 4px;
+	font-size: 18px;
+	padding: 0 30px;
+	line-height: 42px;
+	border: none;
+	margin-top: 17px;
+}
+
+/* Card Activation Form >> Required Fields */
+.tc-form-card_activation .form-item[required] label::after {
+	content: '*';
+	color: #ee3a4f;
+	margin-left: 5px;
+}
+
+/* Card Activation Form >> Error */
+.tc-form-card_activation .form-item.v-error {
+	position: relative;
+}
+.tc-form-card_activation .form-item.v-error input,
+.tc-form-card_activation .form-item.v-not_equal input {
+	border-color: #ee3a4f;
+}
+.tc-form-card_activation .form-item.v-error::before {
+	content: attr(data-error);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	color: #ee3a4f;
+	font-size: 12px;
+	margin-top: 5px;
+}

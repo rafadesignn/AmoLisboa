@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <title>Amo Lisboa!</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Fontes -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="flexslider.css.html" rel="stylesheet" type="text/css">
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/trz.css" rel="stylesheet" type="text/css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png.html">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png.html">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png.html">
+    <link rel="manifest" href="manifest.json.html">
+    <link rel="mask-icon" href="safari-pinned-tab.svg.html" color="#5bbad5">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/galleria-1.4.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/sha512.js"></script>
+</head>
+
+<body>
+    <a href="JavaScript:void(0);" id="toTop"><i class="fa fa-arrow-up"></i></a>
+
+    <!-- Section: Topo -->
+    <nav class="main-menu-all">
+        <ul class="list-unstyled main-menu">
+            <li><a href="#" id="nav-close">X</a></li>
+            <li><a href="../amolisboa.pt/como-funciona.html">Como Funciona?</a></li>
+            <li><a href="../amolisboa.pt/entre.html">Entre para o Clube</a></li>
+            <li><a href="../amolisboa.pt/quem-somos.html">Quem Somos?</a></li>
+            <li><a href="../amolisboa.pt/blog.html">Blog</a></li>
+            <li><a href="../amolisboa.pt/fale-conosco.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+
+    <div id="mobileNavigation" class="tc-mobile-navigation hidden-md hidden-lg">
+        <div class="wrapper">
+            <ul>
+                <li><a href="../amolisboa.pt/como-funciona.html">Como Funciona?</a></li>
+                <li><a href="../amolisboa.pt/entre.html">Entre para o Clube</a></li>
+                <li><a href="../amolisboa.pt/quem-somos.html">Quem Somos?</a></li>
+                <li><a href="../amolisboa.pt/blog.html">Blog</a></li>
+                <li><a href="../amolisboa.pt/fale-conosco.html">Fale Conosco</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header id="mainHeader" class="topo topo-fixo-mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="flex-wrapper">
+                        <div class="left">
+                            <div class="tc-navigation">
+                                <a href="JavaScript:void(0);"><i class="fa fa-bars"></i></a>
+                                <ul class="tc-dropdown">
+                                    <li><a href="../amolisboa.pt/como-funciona.html">Como Funciona?</a></li>
+                                    <li><a href="../amolisboa.pt/entre.html">Entre para o Clube</a></li>
+                                    <li><a href="../amolisboa.pt/quem-somos.html">Quem Somos?</a></li>
+                                    <li><a href="../amolisboa.pt/blog.html">Blog</a></li>
+                                    <li><a href="../amolisboa.pt/fale-conosco.html">Fale Conosco</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <div class="tc-the-logo">
+                                <a href="index.html">
+                                    <img src="images/logo.png" alt="Amo Lisboa!">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <ul class="header-redesocial">
+                                <li><a class="fa fa-facebook fa-1x" href="https://www.facebook.com/"
+                                        target="_blank"></a></li>
+                                <li><a class="fa fa-instagram fa-1x" href="https://www.instagram.com"
+                                        target="_blank"></a></li>
+                                <li><a class="fa invertido fa-spotify fa-3x" href="https://open.spotify.com"
+                                        target="_blank"></a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="div-busca" class="col-xs-12 col-sm-12 col-md-12 collapse">
+                    <form class="form-busca" action="busca.html" method="POST">
+                        <fieldset>
+                            <label><input type="busca" id="busca" name="busca" required placeholder="Busca" /></label>
+                            <input type="submit" class="botao" value="Buscar" />
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /Section: topo -->
+    <!-- Section: Banner -->
+    <div class="tc-lightbox">
+        <div class="wrapper">
+            <a href="JavaScript:void(0);" class="close">X</a>
+            <a href="login/0/cadastro.html">
+                <img src="images/lightbox.jpg">
+            </a>
+        </div>
+    </div>
+    <div id="background-carousel" class="hidden-xs">
+        <div id="myCarouselHome" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <video autoplay loop muted poster="video-site.jpg" id="background">
+                    <source src="./video-site.mp4" type="video/mp4">
+                </video>
+            </div>
+            <section id="banner-home-conteudo" class="banner-home-conteudo"
+                style="background: url(images/bg-banner.png)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>AMAR LISBOA É FÁCIL!</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 text-center">
+                            <h4>Com o <strong>Amo Lisboa!</strong> você vive o melhor da cidade tendo acesso<br /> a
+                                descontos e oportunidades incríveis todos os dias.</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div id="background-carousel" class="visible-xs">
+        <div id="myCarouselHome2" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active" style="background-image:url(banner/banner01-mobile.jpg)"></div>
+                <div class="item" style="background-image:url(banner/banner02-mobile.jpg)"></div>
+                <div class="item" style="background-image:url(banner/banner03-mobile.jpg)"></div>
+                <div class="item" style="background-image:url(banner/banner04-mobile.jpg)"></div>
+                <div class="item" style="background-image:url(banner/banner05-mobile.jpg)"></div>
+            </div>
+            <section id="banner-home-conteudo" class="banner-home-conteudo"
+                style="background: url(images/bg-banner.png)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>AMAR LISBOA É FÁCIL!</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 text-center">
+                            <h4>Com o <strong>Amo Lisboa!</strong> você vive o melhor da cidade tendo acesso<br /> a
+                                descontos e oportunidades incríveis todos os dias.</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- /Section: Banner -->
+    <!-- Section: App -->
+    <section id="apphome" class="apphome">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-md-offset-2">
+                    <h2>BAIXE O APP E COMECE A <br /> ECONOMIZAR AGORA MESMO!</h2>
+                    <ul class="entre-lista">
+                        <li>MENOS DE <strong>1,00€</strong> POR DIA.</li>
+                        <li>CENTENAS DE PARCEIROS.</li>
+                        <li>12 CATEGORIAS.</li>
+                        <li>LISBOA NA PALMA DA SUA MÃO.</li>
+                    </ul>
+                    <div class="col-xs-12 col-md-12">
+                        <a href="https://apps.apple.com" target="_blank"><img src="images/app-apple.png"
+                                alt="Apple Store"></a><a href="https://play.google.com/store" target="_blank"><img
+                                style="margin-left:12px;" src="images/app-google.png" alt="Play Store"></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 apphome-img">
+                    <img src="images/home-smartphone-apps.jpg" alt="Imagem App Amo Lisboa!" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="apphome" class="apphome-mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-md-offset-2">
+                    <h2>BAIXE O APP E COMECE A <br /> ECONOMIZAR AGORA MESMO!</h2>
+                    <ul class="entre-lista">
+                        <li>MENOS DE <strong>1,00€</strong> POR DIA.</li>
+                        <li>CENTENAS DE PARCEIROS.</li>
+                        <li>12 CATEGORIAS.</li>
+                        <li>LISBOA NA PALMA DA SUA MÃO.</li>
+                    </ul>
+                    <div class="col-xs-12 col-md-12">
+                        <a href="https://apps.apple.com" target="_blank"><img src="images/app-apple.png"
+                                alt="Apple Store"></a><a href="https://play.google.com/store" target="_blank"><img
+                                style="margin-left:12px;" src="images/app-google.png" alt="Play Store"></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6" style="padding:0; margin:0; text-align: right">
+                    <img src="images/home-smartphone-apps-mobile.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Como Funciona -->
+    <section id="comofunciona" class="comofunciona comofunciona-bg-black">
+        <div class="container">
+            <div class="row tc-header">
+                <div class="col-xs-12 col-md-12 text-center">
+                    <h2>É fácil participar!</h2>
+                    <div class="separador-titulo"></div>
+                </div>
+            </div>
+            <div class="row margintop-40">
+                <div class="col-sm-6 col-md-3 text-center block">
+                    <div class="wrapper">
+                        <div class="tc-icon">
+                            <img src="images/icon-home-about-01-b.png">
+                        </div>
+                        <h3>Faça sua Assinatura</h3>
+                        <div class="content">Junte-se a milhares de sócios que utilizam o melhor APP de economia da
+                            cidade. São 12 categorias e centenas de oportunidades.</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center block">
+                    <div class="wrapper">
+                        <div class="tc-icon">
+                            <img src="images/icon-home-about-03-b.png">
+                        </div>
+                        <h3>Encontre o Estabelecimento</h3>
+                        <div class="content">Busque por seus estabelecimentos preferidos, confira os dias, horários e as
+                            regras de cada promoção e economize na hora.</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center block">
+                    <div class="wrapper">
+                        <div class="tc-icon">
+                            <img src="images/icon-home-about-02-b.png">
+                        </div>
+                        <h3>Conte que você é sócio</h3>
+                        <div class="content">Identifique-se como sócio <strong>Amo Lisboa</strong> ao chegar no
+                            estabelecimento. Ao clicar em UTILIZAR o benefício escolhido, um código único é gerado e
+                            você deve mostrá-lo ao atendente.</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center block">
+                    <div class="wrapper">
+                        <div class="tc-icon">
+                            <img src="images/icon-home-about-04-b.png">
+                        </div>
+                        <h3>Vale a Pena?</h3>
+                        <div class="content">Vale MUITOOO!!! Sócio <strong>Amo Lisboa</strong> vive o melhor da cidade e
+                            na maioria das vezes, economiza sua mensalidade em sua primeira utilização.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margintop-30 tc-cta">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <a href="entre.html" class="btn">Baixe o APP</a>
+                </div>
+            </div>
+            <div class="row margintop-30">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <p>Você vive o melhor da cidade todos os dias, por menos <span
+                            class="destaquecor"><strong>1,00€</strong></span> por dia!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section: Como Funciona -->
+
+
+    <!-- Section: Blog -->
+    <section id="homeblog" class="homeblog">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 text-center">
+                    <h2>Amar Lisboa é Fácil!</h2>
+                    <div class="separador-titulo"></div>
+                </div>
+            </div>
+            <div class="row margintop-50">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="blog-post/17/batemos-um-otimo-papo-com-henrique-sa-pessoa.html">
+                        <img src="images/blog/henrique.png" alt="Chef Henrique Sá Pessoa" />
+                        <h4>Batemos um óptimo papo com Henrique Sá Pessoa do Alma.</h4>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="blog-post/16/rodrigo-e-proprietario-do-japones-rokkon-e-falou-sobre-empreendedorismo.html">
+                        <img src="images/blog/ruaprincipe.png" alt="Rua Principe Real" />
+                        <h4>Descubra o maravilhoso restaurante Rua no Bairro Alto.</h4>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="blog-post/8/gabriel-azevedo-fazer-diferente-fazer-diferenca.html">
+                        <img src="images/blog/alexandresilva.png" alt="Chef Alexandre Silva" />
+                        <h4>Alexandre Silva - Paixão por música e gastronomia.</h4>
+                    </a>
+                </div>
+
+            </div>
+            <div class="row margintop-30">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <a href="blog.html" class="btn">Ler mais Postagens</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section: Blog -->
+    <!-- Section: Depoimentos   -->
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 text-center">
+                    <h2>A malta adorou a idéia!</h2>
+                    <div class="separador-titulo"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="tc-testimonials">
+                        <div class="tc-slider">
+                            <div class="item">
+                                <div class="item--wrapper">
+                                    <div class="left">
+                                        <div class="item--picture">
+                                            <img src="images/solangegomes.jpg" alt="Solange Gomes" />
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="item--name">Solange Gomes</div>
+                                        <div class="item--content">
+                                            <p>Eu amo Lisboa! E qualquer ideia que conecta&nbsp;boas pessoas e bons
+                                                neg&oacute;cios eu apoio.&nbsp;Gostei muito do AMO LISBOA! porque ele
+                                                &eacute; 100%&nbsp;da cidade e vai unir oportunidades e
+                                                experi&ecirc;ncias&nbsp;&uacute;nicas. Desejo muito sucesso e estou na
+                                                torcida para<br />
+                                                que este projeto seja mesmo uma hist&oacute;ria de amor&nbsp;com nossa
+                                                linda LISBOA!&nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item--wrapper">
+                                    <div class="left">
+                                        <div class="item--picture">
+                                            <img src="images/joaolino.jpg" alt="João Lino" />
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="item--name">João Lino</div>
+                                        <div class="item--content">
+                                            <p>Unir estabelecimentos de v&aacute;rios setores que te acompanham nas
+                                                diversas atividades durante todo&nbsp;o dia &eacute; sensacional. Vou
+                                                poder contar com o&nbsp;Amo Lisboa para a alimenta&ccedil;&atilde;o,
+                                                atividades f&iacute;sicas&nbsp;ou at&eacute; na manuten&ccedil;&atilde;o
+                                                do meu carro.&nbsp;Al&eacute;m disso, o Amo Lisboa reune os melhores
+                                                de&nbsp;cada segmento. Vou ficar mais fiel aos locais que&nbsp;j&aacute;
+                                                conhe&ccedil;o, e os que ainda n&atilde;o conhe&ccedil;o, o clube<br />
+                                                vai me atender como um guia de oportunidades.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item--wrapper">
+                                    <div class="left">
+                                        <div class="item--picture">
+                                            <img src="images/hugooliveira.jpg" alt="Hugo Oliveira" />
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="item--name">Hugo Oliveira</div>
+                                        <div class="item--content">
+                                            <p>Apoiar as empresas e iniciativas locais j&aacute; faz parte do DNA do
+                                                GoJuu. A ideia de participar de um&nbsp;clube voltado para conectar
+                                                pessoas legais e&nbsp;empresas admiradas de Lisboa
+                                                &eacute;&nbsp;surpreendente e inovadora ao mesmo tempo.&nbsp;Gostamos
+                                                muito da proposta do Amo Lisboa,&nbsp;que inclui a&ccedil;&otilde;es
+                                                ousadas e inteligentes, que v&atilde;o&nbsp;muito al&eacute;m do simples
+                                                desconto.&quot; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item--wrapper">
+                                    <div class="left">
+                                        <div class="item--picture">
+                                            <img src="images/marciasouza.jpg" alt="Márcio Souza & Isabella Nejm" />
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="item--name">Márcio Souza & Isabella Nejm</div>
+                                        <div class="item--content">
+                                            <p>&lsquo;&lsquo;N&oacute;s amamos a ideia de um clube que nos
+                                                conecta&nbsp;sempre com as novidades da cidade. Acabamos de&nbsp;nos
+                                                casar e poder viver o melhor de Lisboa e ainda&nbsp;economizar &eacute;
+                                                mais que bom, &eacute; &oacute;timo!&nbsp;Recomendamos muito e desejamos
+                                                vida longa&nbsp;ao Amo Lisboa.&rsquo;&rsquo;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item--wrapper">
+                                    <div class="left">
+                                        <div class="item--picture">
+                                            <img src="images/rafaelcacao.png" alt="Rafael Cação" />
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="item--name">Rafael Cação</div>
+                                        <div class="item--content">
+                                            <p>&quot;O Amo Lisboa chegou para revolucionar e inovar! Este exclusivo
+                                                Clube oferece n&atilde;o s&oacute; para n&oacute;s&nbsp;lisboetas, mas
+                                                para todos que amam Lisboa, o melhor&nbsp;que nossa cidade pode oferecer
+                                                em termos de&nbsp;servi&ccedil;os e lazer. Obrigado Amo Lisboa, por
+                                                tornar&nbsp;ainda mais f&aacute;cil amar essa cidade!&quot;&nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item--wrapper">
+                                    <div class="left">
+                                        <div class="item--picture">
+                                            <img src="images/rafaelcavalcante.png" alt="Rafael Cavalcante" />
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="item--name">Rafael Cavalcante</div>
+                                        <div class="item--content">
+                                            <p>A proposta do Amo Lisboa me encantou. Recentemente, morei por 3 anos fora
+                                                de Lisboa e senti uma imensa saudade dessa cidade, que sabe,
+                                                como&nbsp;nenhuma outra, ser extremamente acolhedora. O&nbsp;Amo Lisboa
+                                                chegou para tornar ainda mais<br />
+                                                gostoso usufruir de tudo que essa cidade tem a nos oferecer. Da melhor
+                                                gastronomia, aos&nbsp;melhores prestadores de servi&ccedil;os.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section: Depoimentos -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <img class="footer-logo" src="images/logo.png" alt="" />
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <h4>Sobre Nós</h4>
+                    <ul class="menu-footer">
+                        <li><a href="../amolisboa.pt/quem-somos.html">Quem Somos?</a></li>
+                        <li><a href="../amolisboa.pt/blog.html">Blog</a></li>
+                        <li><a href="/termos-de-uso">Termos de Uso</a></li>
+                        <li><a href="../amolisboa.pt/fale-conosco.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <h4>Assinatura</h4>
+                    <ul class="menu-footer">
+                        <li><a href="../amolisboa.pt/como-funciona.html">Como Funciona?</a></li>
+                        <li><a href="../amolisboa.pt/entre.html">Entre para o Clube</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <ul class="footer-redesocial">
+                        <li><a class="fa fa-facebook fa-2x" href="https://www.facebook.com" target="_blank"></a></li>
+                        <li><a class="fa fa-instagram fa-2x" href="https://www.instagram.com" target="_blank"></a></li>
+                        <li><a class="fa invertido fa-spotify fa-4x" href="https://open.spotify.com"
+                                target="_blank"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Core JavaScript Files -->
+
+    <script src="js/jquery.mask.min.js"></script>
+    <!-- JS W3 -->
+    <script src="js/w3mask.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/w3vision.js"></script>
+    <script src="js/functions.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+
+            //Navigation Menu Slider
+            $('#nav-expander').on('click', function (e) {
+                e.preventDefault();
+                $('body').toggleClass('nav-expanded');
+            });
+            $('#nav-close').on('click', function (e) {
+                e.preventDefault();
+                $('body').removeClass('nav-expanded');
+            });
+
+        });
+    </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-102118417-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>
